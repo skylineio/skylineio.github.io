@@ -1,0 +1,23 @@
+{
+  "name": "skyline-github-pages",
+  "version": "1.0.0",
+  "description": "Skyline BaaS Platform - GitHub Pages Site",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "skyline",
+    "baas",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.11"
+  }
+}
